@@ -12,3 +12,5 @@ It includes AABB Scene Bounding Box, Sphere and Quad primitive types, and Next E
 It only renders a hard coded custom Cornell Box scene consisting of diffuse walls, a specular metal sphere, a white sphere, an area light, a point light (supplementary), and a camera with a 38.0° vertical FOV value.
 
 I also used this path tracer's renders on Non-Local Means (NLM) Denoiser to test the possible denoising capabilities of the NLM algorithm for noisy path tracing renders. The NLM denoiser was also implemented in CUDA and is available in [this repository](https://github.com/fsaltunyuva/CUDANLMDenoiser).
+
+I used [stb image library](https://github.com/nothings/stb) to save the rendered images in PNG format.

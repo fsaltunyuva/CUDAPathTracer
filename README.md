@@ -1,9 +1,9 @@
 # CUDA Path Tracer
 Basic GPU Path Tracer developed to compare the speedup against CPU Path Tracer for the term project of the MMI713 (Applied Parallel Programming on GPU) course.
 
-[ground truth reference image]
+![ground_truth](https://github.com/fsaltunyuva/CUDAPathTracer/blob/main/ground_truth.png)
 
-*Ground truth reference render of the custom Cornell Box scene. The image was rendered at a resolution of 800x800 with 10,000 samples per pixel (SPP), a maximum ray depth of 100, and Next Event Estimation (NEE) enabled (Rendered on my custom GPU Path Tracer in 54.19 seconds).*
+*Ground truth reference render of the custom Cornell Box scene. The image was rendered at a resolution of 800x800 with 10,000 samples per pixel (SPP), a maximum ray depth of 100, and Next Event Estimation (NEE) enabled (Rendered on my custom GPU Path Tracer in 54.19 seconds on RTX 3070).*
 
 It is an iterative GPU Accelerated Path Tracer that uses CUDA to accelerate the rendering process. The project aims to demonstrate the performance benefits of using GPU for path tracing compared to traditional CPU implementations. Therefore, it lacks features like BVH acceleration structure, glass/dielectric materials (Snell's law, Fresnel equations), texture mapping, depth of field, motion blur, and Multiple Importance Sampling (MIS) for area lights.
 
